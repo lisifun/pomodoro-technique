@@ -1,0 +1,164 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.home-page {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.technique-pomodoro {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+span {
+  color: #eb2a36;
+}
+
+.timer {
+  border-radius: 50%;
+  border: 4px solid #eb2a36;
+  height: 350px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pomodoro-slot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pomodoro-slot > div {
+  font-size: 5rem;
+}
+
+.finish-time {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+i {
+  font-size: 1.2rem;
+}
+
+.finish-time > div {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.timer-buttons {
+  display: flex;
+  gap: 100px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 16px;
+  border: none;
+  color: white;
+}
+
+.cancel-button-off {
+  background-color: #aebdcd;
+}
+
+.pause-button {
+  background-color: #798897;
+}
+
+.start-button {
+  border: none;
+  background-color: #315f38;
+}
+
+.horizontal-line {
+  
+}
